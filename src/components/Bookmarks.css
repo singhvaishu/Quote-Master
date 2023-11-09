@@ -1,0 +1,49 @@
+body {
+  width: 1512px;
+  height: 982px;
+  top: -401px;
+  left: 924px;
+  background: linear-gradient(256.47deg, #5e2ab3 2.64%, #161e6c 140.46%);
+}
+.bookmark-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 775px;
+  height: 248px;
+  top: 142px;
+  left: 188px;
+  border-radius: 30px;
+  background: #d05252;
+  position: relative;
+}
+
+.bookmark-content {
+  width: 521px;
+  height: 90px;
+  top: 50px;
+  left: 222px;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+}
+
+.bookmark-author {
+  width: 145px;
+  height: 67px;
+  top: 220px;
+  left: 300px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: #ffffff;
+}

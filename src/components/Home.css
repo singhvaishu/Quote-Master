@@ -1,0 +1,163 @@
+body {
+  width: 1512px;
+  height: 982px;
+  top: -401px;
+  left: -628px;
+
+  background: linear-gradient(256.47deg, #5e2ab3 2.64%, #161e6c 140.46%);
+}
+
+.home-container {
+  width: 1512px;
+  height: 982px;
+  position: relative;
+  top: -401px;
+  left: -628px;
+  font-family: "Poppins";
+}
+
+.header {
+  width: 100%;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  font-family: "Poppins";
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.home-button,
+.bookmarks-button {
+  color: white;
+  width: 80px;
+  height: 39px;
+  font-family: "Poppins";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bookmarks-button {
+  width: 141px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.rectangle1 {
+  width: 773px;
+  height: 263px;
+  top: 453px;
+  left: 496px;
+  margin: 80px auto;
+  border-radius: 30px;
+  background: #d05252;
+  position: relative;
+}
+
+.inside .content {
+  width: 521px;
+  height: 90px;
+  top: 50px;
+  left: 222px;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+}
+
+.inside .author {
+  width: 145px;
+  height: 27px;
+  top: 200px;
+  left: 300px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: #ffffff;
+}
+.icons {
+  color: #ffffff;
+  width: 15px;
+  height: 40px;
+  top: 210px;
+  left: 495px;
+  padding: 0 2.25px 0 2.25px;
+  position: absolute;
+  cursor: pointer;
+}
+.fa-bookmark {
+  width: 15px;
+  height: 15px;
+  top: 170px;
+  left: 115px;
+  padding: 0 2.25px 0 2.25px;
+  position: absolute;
+}
+
+.rectangle3 {
+  width: 253px;
+  height: 38px;
+  top: 811px;
+  left: 1110px;
+
+  border-radius: 30px;
+  background: #d9d9d9;
+  position: absolute;
+}
+.rightside {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.dropdown {
+  width: 24px;
+  height: 24px;
+  top: 218px;
+  right: 10px;
+  padding: 0px, 7px, 0px, 7px;
+  border: none;
+  background: #d9d9d9;
+}
+.rectangle2 {
+  width: 240px;
+  height: 45px;
+  top: 924px;
+  left: 1110px;
+  border-radius: 30px;
+  background: #009c51;
+  box-shadow: 2px 4px 10px 2px #00000040;
+  position: absolute;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+}
